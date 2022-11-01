@@ -1,26 +1,26 @@
 [
       {
-            "id": "01",
+            "id": "0",
             "name": "HTML"
       },
       {
-            "id": "02",
+            "id": "1",
             "name": "CSS"
       },
       {
-            "id": "03",
+            "id": "2",
             "name": "JavaScript"
       },
       {
-            "id": "04",
+            "id": "3",
             "name": "React"
       },
       {
-            "id": "05",
+            "id": "4",
             "name": "Node.js"
       },
       {
-            "id": "06",
+            "id": "5",
             "name": "Python"
       }
 ]
