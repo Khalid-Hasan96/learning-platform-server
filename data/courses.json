@@ -1,26 +1,26 @@
 [
       {
-            "id": "0",
+            "course_id": "0",
             "name": "HTML"
       },
       {
-            "id": "1",
+            "course_id": "1",
             "name": "CSS"
       },
       {
-            "id": "2",
+            "course_id": "2",
             "name": "JavaScript"
       },
       {
-            "id": "3",
+            "course_id": "3",
             "name": "React"
       },
       {
-            "id": "4",
+            "course_id": "4",
             "name": "Node.js"
       },
       {
-            "id": "5",
+            "course_id": "5",
             "name": "Python"
       }
 ]

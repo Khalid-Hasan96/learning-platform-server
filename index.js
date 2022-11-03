@@ -19,11 +19,18 @@ app.get('/all-courses', (req, res) => {
       res.send(allCourses)
 })
 
+app.get('/course-detail/:id', (req, res) => {
+      const id = req.params.id;
+      const providedCourses = allCourses.find(course => course._id === id);
+      res.send(providedCourses)
+})
+
 app.get('/course/:id', (req, res) => {
       const id = req.params.id;
       const providedCourses = allCourses.find(course => course._id === id);
       res.send(providedCourses)
 })
+
 
 app.listen(port, () => {
       console.log('Learning Platform Server Runnig on port', port);
